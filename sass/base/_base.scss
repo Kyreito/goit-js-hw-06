@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  background-color: $primary-white-color;
+  font-family: $font-family-main, $font-family-secondary;
+}
+
+img {
+  display: block;
+}
